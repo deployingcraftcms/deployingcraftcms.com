@@ -4,7 +4,20 @@ module.exports = {
     themeConfig: {
         displayAllHeaders: true,
         sidebarDepth: 2,
-        sidebar: ['/'],
+        nav: [{
+                text: 'Home',
+                link: '/'
+            },
+            {
+                text: 'Tutorials',
+                link: '/tutorials/'
+            },
+            {
+                text: 'Docker Hub',
+                link: 'https://google.com'
+            },
+        ],
+        sidebar: ['/', 'reference/', 'images/', 'tutorials/'],
         repo: 'deployingcraftcms/deployingcraftcms.com',
         repoLabel: 'Contribute!',
         docsRepo: 'deployingcraftcms/deployingcraftcms.com',
