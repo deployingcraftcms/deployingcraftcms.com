@@ -17,7 +17,7 @@ module.exports = {
                 link: 'https://google.com'
             },
         ],
-        sidebar: ['/', 'reference/', 'images/', 'tutorials/'],
+        sidebar: ['/', 'images/', 'tutorials/', 'reference/'],
         repo: 'deployingcraftcms/deployingcraftcms.com',
         repoLabel: 'Contribute!',
         docsRepo: 'deployingcraftcms/deployingcraftcms.com',
