@@ -1,1 +1,1 @@
-# Deploying Craft CMS
+# Getting Started
