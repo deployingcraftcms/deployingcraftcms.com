@@ -23,7 +23,12 @@ module.exports = {
         docsRepo: 'deployingcraftcms/deployingcraftcms.com',
         docsBranch: 'master',
         editLinks: true,
-        editLinkText: 'Help improve this page!'
+        editLinkText: 'Help improve this page!',
+        lastUpdated: 'Last Updated'
+        // algolia: {
+        //     apiKey: '<API_KEY>',
+        //     indexName: 'deployingcraftcms'
+        // }
     },
     plugins: [
         [
