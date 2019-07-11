@@ -24,11 +24,11 @@ module.exports = {
         docsBranch: 'master',
         editLinks: true,
         editLinkText: 'Help improve this page!',
-        lastUpdated: 'Last Updated'
-        // algolia: {
-        //     apiKey: '<API_KEY>',
-        //     indexName: 'deployingcraftcms'
-        // }
+        lastUpdated: 'Last Updated',
+        algolia: {
+            apiKey: '64e043c4e6e36a70fe9c5819c0cb102a',
+            indexName: 'deployingcraftcms'
+        }
     },
     plugins: [
         [
