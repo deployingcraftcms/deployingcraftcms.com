@@ -3,7 +3,7 @@ module.exports = {
     description: 'Docker images, tutorials, and best practices for deploying Craft CMS',
     themeConfig: {
         displayAllHeaders: true,
-        sidebarDepth: 2,
+        sidebarDepth: 1,
         nav: [{
                 text: 'Home',
                 link: '/'
