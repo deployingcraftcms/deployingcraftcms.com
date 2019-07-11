@@ -25,10 +25,10 @@ module.exports = {
         editLinks: true,
         editLinkText: 'Help improve this page!',
         lastUpdated: 'Last Updated',
-        // algolia: {
-        //     apiKey: '',
-        //     indexName: 'deployingcraftcms'
-        // }
+        algolia: {
+            apiKey: '0e587fb4c9e3b6e24a05884c703dc685',
+            indexName: 'deployingcraftcms'
+        }
     },
     plugins: [
         [
