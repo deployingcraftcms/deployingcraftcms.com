@@ -7,38 +7,34 @@ We provide two types of images for each version of PHP:
 1. `apache` image - which is used to serve your web requests
 1. `queue` image - which is used to run your queue and does not expose a port
 
-## 7.3-apache
-
-```
-docker pull deployingcraftcms/php:7.3-apache
-```
+## 7.3-apache-postgres
 
 ### Dockerfile
 
-<<< @/php7.3/apache.Dockerfile
+<<< @/php7.3/apache-postgres.Dockerfile
 
-[Source File](https://github.com/deployingcraftcms/deployingcraftcms.com/blob/master/php7.3/apache.Dockerfile)
+[Source File](https://github.com/deployingcraftcms/deployingcraftcms.com/blob/master/php7.3/apache-postgres.Dockerfile)
 
-## 7.3-queue
-
-### Dockerfile
-
-<<< @/php7.3/queue.Dockerfile
-
-[Source File](https://github.com/deployingcraftcms/deployingcraftcms.com/blob/master/php7.3/queue.Dockerfile)
-
-## 7.2-apache
+## 7.3-queue-postgres
 
 ### Dockerfile
 
-<<< @/php7.2/apache.Dockerfile
+<<< @/php7.3/queue-postgres.Dockerfile
 
-[Source File](https://github.com/deployingcraftcms/deployingcraftcms.com/blob/master/php7.2/apache.Dockerfile)
+[Source File](https://github.com/deployingcraftcms/deployingcraftcms.com/blob/master/php7.3/queue-postgres.Dockerfile)
 
-## 7.2-queue
+## 7.3-apache-mysql
 
 ### Dockerfile
 
-<<< @/php7.2/queue.Dockerfile
+<<< @/php7.3/apache-mysql.Dockerfile
 
-[Source File](https://github.com/deployingcraftcms/deployingcraftcms.com/blob/master/php7.2/queue.Dockerfile)
+[Source File](https://github.com/deployingcraftcms/deployingcraftcms.com/blob/master/php7.3/apache-mysql.Dockerfile)
+
+## 7.3-queue-mysql
+
+### Dockerfile
+
+<<< @/php7.3/queue-mysql.Dockerfile
+
+[Source File](https://github.com/deployingcraftcms/deployingcraftcms.com/blob/master/php7.3/queue-mysql.Dockerfile)

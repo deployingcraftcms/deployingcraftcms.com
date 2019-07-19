@@ -1,6 +1,4 @@
-# Getting Started
-
-## PHP Extensions
+## Installed PHP Extensions
 
 The following extensions are installed and enabled by default. These meet the Craft CMS server requirements.
 

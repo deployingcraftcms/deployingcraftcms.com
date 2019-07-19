@@ -14,10 +14,24 @@ module.exports = {
             },
             {
                 text: 'Docker Hub',
-                link: 'https://google.com'
+                link: 'https://hub.docker.com/r/deployingcraftcms/php'
             },
         ],
-        sidebar: ['/', 'images/', 'tutorials/', 'reference/'],
+        sidebar: [{
+                title: 'Getting Started',
+                collapsable: false,
+                children: [
+                    'reference/'
+                ]
+            },
+            {
+                title: 'Images',
+                collapsable: false,
+                children: [
+                    'images/'
+                ]
+            }
+        ],
         repo: 'deployingcraftcms/deployingcraftcms.com',
         repoLabel: 'Contribute!',
         docsRepo: 'deployingcraftcms/deployingcraftcms.com',
